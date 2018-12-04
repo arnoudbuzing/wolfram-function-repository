@@ -1,0 +1,187 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6776,        179]
+NotebookOptionsPosition[      6224,        161]
+NotebookOutlinePosition[      6600,        177]
+CellTagsIndexPosition[      6557,        174]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "CreateResourceFunctionGallery", "[", "resourceFunctions_List", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "rf", ",", "ro", ",", "name", ",", "co", ",", "thumb", ",", "desc", ",", 
+      "gv"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"gv", "=", 
+      RowBox[{"Map", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Function", "[", 
+         RowBox[{
+          RowBox[{"{", "rf", "}"}], ",", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"ro", "=", 
+            RowBox[{"ResourceObject", "[", "rf", "]"}]}], ";", 
+           "\[IndentingNewLine]", 
+           RowBox[{"name", "=", 
+            RowBox[{"ro", "[", "\"\<Name\>\"", "]"}]}], ";", 
+           "\[IndentingNewLine]", 
+           RowBox[{"desc", "=", 
+            RowBox[{"ro", "[", "\"\<Description\>\"", "]"}]}], ";", 
+           "\[IndentingNewLine]", 
+           RowBox[{"co", "=", 
+            RowBox[{"CloudDeploy", "[", 
+             RowBox[{"rf", ",", 
+              RowBox[{"CloudObject", "[", 
+               RowBox[{"\"\<resource-functions/\>\"", "<>", "name"}], "]"}], 
+              ",", 
+              RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], "]"}]}],
+            ";", "\[IndentingNewLine]", 
+           RowBox[{"thumb", "=", 
+            RowBox[{"Graphics", "[", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Disk", "[", "]"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"White", ",", 
+                  RowBox[{"Text", "[", 
+                   RowBox[{"Style", "[", 
+                    RowBox[{"name", ",", "20"}], "]"}], "]"}]}], "}"}]}], 
+               "}"}], ",", 
+              RowBox[{"ImageSize", "\[Rule]", "256"}]}], "]"}]}], ";", 
+           "\[IndentingNewLine]", 
+           RowBox[{"<|", 
+            RowBox[{
+             RowBox[{"\"\<Title\>\"", "\[Rule]", "name"}], ",", 
+             RowBox[{"\"\<Content\>\"", "\[Rule]", 
+              RowBox[{"Hyperlink", "[", 
+               RowBox[{"thumb", ",", "co"}], "]"}]}], ",", 
+             RowBox[{"\"\<Description\>\"", "\[Rule]", "desc"}]}], "|>"}]}]}],
+          "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+        "resourceFunctions"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"CloudDeploy", "[", 
+      RowBox[{
+       RowBox[{"GalleryView", "[", "gv", "]"}], ",", 
+       RowBox[{
+       "CloudObject", "[", "\"\<resource-functions/gallery\>\"", "]"}], ",", 
+       RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7529504969672923`*^9, 3.7529506965558147`*^9}, {
+  3.752950738166024*^9, 3.7529507428440433`*^9}, {3.75295081944627*^9, 
+  3.752950843604349*^9}},ExpressionUUID->"caa3aeb0-f919-486e-bfcc-\
+bb3832a28fff"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CreateResourceFunctionGallery", "[", 
+  RowBox[{"{", "\[IndentingNewLine]", 
+   RowBox[{
+    InterpretationBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      TemplateBox[{"Expression",RowBox[{"ResourceFunction", "[", 
+          DynamicBox[
+           FEPrivate`FrontEndResource["FEBitmaps", "IconizeEllipsis"]], "]"}],
+        GridBox[{{
+           RowBox[{
+             TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox["224", "IconizedItem"]}]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+         "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],Dynamic[
+        Typeset`open]},
+       "IconizedObject"]],
+     ResourceFunction[
+      LocalObject[
+      "file:///C:/Users/arnoudb.WRI/AppData/Roaming/Wolfram/Objects/fa2c8fe4-\
+a6df-4979-8e78-2570a90e0e4b"]],
+     SelectWithContents->True,
+     Selectable->False], ",", "\[IndentingNewLine]", 
+    InterpretationBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      TemplateBox[{"Expression",RowBox[{"ResourceFunction", "[", 
+          DynamicBox[
+           FEPrivate`FrontEndResource["FEBitmaps", "IconizeEllipsis"]], "]"}],
+        GridBox[{{
+           RowBox[{
+             TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+             TagBox["224", "IconizedItem"]}]}}, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+         "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],Dynamic[
+        Typeset`open]},
+       "IconizedObject"]],
+     ResourceFunction[
+      LocalObject[
+      "file:///C:/Users/arnoudb.WRI/AppData/Roaming/Wolfram/Objects/20c42dd5-\
+b494-4dae-a16d-19a50d8653f6"]],
+     SelectWithContents->True,
+     Selectable->False]}], "\[IndentingNewLine]", "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.752950700149825*^9, 3.752950711099894*^9}, {
+  3.7529507883431873`*^9, 3.7529507888321886`*^9}, {3.75295085082837*^9, 
+  3.75295088445751*^9}},ExpressionUUID->"964da730-326a-4790-b010-\
+5f495fb57531"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+gallery\"",
+     "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+gallery"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/objects/arnoudb/resource-functions/gallery"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.752950714745909*^9, 3.752950747519058*^9, 
+  3.7529508683034163`*^9},
+ CellLabel->
+  "Out[122]=",ExpressionUUID->"37bc2d94-beba-476d-aa43-e6bb2b7999ab"]
+}, Open  ]]
+},
+WindowSize->{1920, 997},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (December 2, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2899, 68, 392, "Input",ExpressionUUID->"caa3aeb0-f919-486e-bfcc-bb3832a28fff"],
+Cell[CellGroupData[{
+Cell[3482, 92, 2139, 49, 161, "Input",ExpressionUUID->"964da730-326a-4790-b010-5f495fb57531"],
+Cell[5624, 143, 584, 15, 53, "Output",ExpressionUUID->"37bc2d94-beba-476d-aa43-e6bb2b7999ab"]
+}, Open  ]]
+}
+]
+*)
+
