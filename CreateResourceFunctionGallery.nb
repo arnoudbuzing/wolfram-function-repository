@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     32880,        717]
-NotebookOptionsPosition[     31630,        689]
-NotebookOutlinePosition[     31975,        704]
-CellTagsIndexPosition[     31932,        701]
+NotebookDataLength[     36271,        800]
+NotebookOptionsPosition[     34607,        766]
+NotebookOutlinePosition[     34952,        781]
+CellTagsIndexPosition[     34909,        778]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -83,7 +83,7 @@ Cell[BoxData[
   3.753016669400044*^9}, {3.7530171833369493`*^9, 3.753017239471326*^9}, {
   3.7530172801941147`*^9, 3.7530172841521673`*^9}, {3.7530173190737553`*^9, 
   3.7530173661183987`*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"75150ba4-e343-43a4-863a-1869d92b8dc4"],
+ CellLabel->"In[95]:=",ExpressionUUID->"75150ba4-e343-43a4-863a-1869d92b8dc4"],
 
 Cell[BoxData[
  RowBox[{
@@ -119,8 +119,9 @@ Cell[BoxData[
               RowBox[{"rf", ",", " ", 
                RowBox[{"CloudObject", "[", 
                 RowBox[{"StringJoin", "[", 
-                 RowBox[{"\"\<resource-functions/\>\"", ",", "name"}], "]"}], 
-                "]"}], ",", 
+                 RowBox[{
+                 "\"\<https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/\>\"", ",", "name"}], "]"}], "]"}], ",", 
                RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], 
               "]"}]}], "]"}], ";", "\[IndentingNewLine]", 
            RowBox[{"thumb", " ", "=", " ", 
@@ -140,7 +141,7 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"GalleryView", "[", 
         RowBox[{"gv", ",", 
-         RowBox[{"PageTheme", "\[Rule]", "\"\<Black\>\""}], ",", 
+         RowBox[{"PageTheme", "\[Rule]", "\"\<Blue\>\""}], ",", 
          RowBox[{"AppearanceRules", " ", "\[Rule]", " ", 
           RowBox[{"<|", 
            RowBox[{
@@ -156,11 +157,13 @@ Cell[BoxData[
        RowBox[{"Permissions", " ", "\[Rule]", " ", "\"\<Public\>\""}]}], 
       "]"}]}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.7529526296863513`*^9, 3.7529527554341593`*^9}, {
-  3.7529528852764645`*^9, 3.752952894154482*^9}, {3.752953001308725*^9, 
-  3.752953044490834*^9}, {3.753016535401673*^9, 3.7530165397606945`*^9}, {
-  3.7530354741716967`*^9, 3.753035514952793*^9}, {3.753036775180003*^9, 
-  3.7530367761260047`*^9}},
- CellLabel->"In[94]:=",ExpressionUUID->"872a7336-34b6-4200-a7d4-f72e37154323"],
+   3.7529528852764645`*^9, 3.752952894154482*^9}, {3.752953001308725*^9, 
+   3.752953044490834*^9}, {3.753016535401673*^9, 3.7530165397606945`*^9}, {
+   3.7530354741716967`*^9, 3.753035514952793*^9}, {3.753036775180003*^9, 
+   3.7530367761260047`*^9}, {3.757333461979704*^9, 3.7573334623907113`*^9}, 
+   3.7573337569419003`*^9},
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"872a7336-34b6-4200-a7d4-f72e37154323"],
 
 Cell[CellGroupData[{
 
@@ -171,23 +174,33 @@ Cell[BoxData[
     RowBox[{"ResourceFunction", "[", 
      RowBox[{
      "CloudObject", "[", 
-      "\"\<https://www.wolframcloud.com/objects/c15a8311-2a34-43a1-8756-\
-1caa2139c520\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/BitFlip\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
     RowBox[{"ResourceFunction", "[", 
      RowBox[{
      "CloudObject", "[", 
-      "\"\<https://www.wolframcloud.com/objects/ad68ae66-1251-48e4-809b-\
-a922a235ec00\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/RandomRomanNumeral\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
     RowBox[{"ResourceFunction", "[", 
      RowBox[{
      "CloudObject", "[", 
-      "\"\<https://www.wolframcloud.com/objects/e59a5636-8791-4dc9-b62c-\
-8bdd0403574e\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/RandomWikipediaData\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
     RowBox[{"ResourceFunction", "[", 
      RowBox[{
      "CloudObject", "[", 
-      "\"\<https://www.wolframcloud.com/objects/22a1163f-d19e-44e2-9d33-\
-ad55589a7442\>\"", "]"}], "]"}]}], "\[IndentingNewLine]", "}"}], 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/StringWrap\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"ResourceFunction", "[", 
+     RowBox[{
+     "CloudObject", "[", 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/ImageColorReplace\>\"", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"ResourceFunction", "[", 
+     RowBox[{
+     "CloudObject", "[", 
+      "\"\<https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/BirdSay\>\"", "]"}], "]"}]}], "\[IndentingNewLine]", "}"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.752950700149825*^9, 3.752950711099894*^9}, {
    3.7529507883431873`*^9, 3.7529507888321886`*^9}, {3.75295085082837*^9, 
@@ -198,9 +211,14 @@ ad55589a7442\>\"", "]"}], "]"}]}], "\[IndentingNewLine]", "}"}],
    3.7530309562236886`*^9}, 3.7530313511605325`*^9, {3.7530313947806644`*^9, 
    3.7530314177047353`*^9}, {3.7530334610296135`*^9, 3.753033463205615*^9}, {
    3.7530354858987174`*^9, 3.753035487068712*^9}, {3.7530365837646213`*^9, 
-   3.753036584271615*^9}, {3.7530390931516623`*^9, 
-   3.7530391021729164`*^9}},ExpressionUUID->"964da730-326a-4790-b010-\
-5f495fb57531"],
+   3.753036584271615*^9}, {3.7530390931516623`*^9, 3.7530391021729164`*^9}, {
+   3.7570844303411255`*^9, 3.757084440079151*^9}, {3.757084473525276*^9, 
+   3.7570844776712847`*^9}, {3.7570845098273826`*^9, 
+   3.7570845290314255`*^9}, {3.757084562990656*^9, 3.757084570487691*^9}, {
+   3.7570846130871716`*^9, 3.7570846218601923`*^9}, {3.75733344218661*^9, 
+   3.757333447089634*^9}},
+ CellLabel->
+  "In[101]:=",ExpressionUUID->"964da730-326a-4790-b010-5f495fb57531"],
 
 Cell[CellGroupData[{
 
@@ -208,68 +226,119 @@ Cell[BoxData[
  InterpretationBox[
   RowBox[{"CloudObject", "[", 
    TemplateBox[{
-    "\"https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-RandomWikipediaData\"",
-     "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-RandomWikipediaData"},
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/BitFlip\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+BitFlip"},
     "HyperlinkURL"], "]"}],
   CloudObject[
-  "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-RandomWikipediaData"],
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+BitFlip"],
   SelectWithContents->True]], "Echo",
  CellChangeTimes->{
-  3.7530367840700145`*^9},ExpressionUUID->"6d0a5789-9fd2-467f-a20c-\
-389707db6690"],
+  3.757333789139067*^9},ExpressionUUID->"ca836bb5-dc79-424f-bf1a-\
+8a984aadbc9c"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"CloudObject", "[", 
    TemplateBox[{
-    "\"https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-RandomRomanNumeral\"",
-     "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/RandomRomanNumeral\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
 RandomRomanNumeral"},
     "HyperlinkURL"], "]"}],
   CloudObject[
-  "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
 RandomRomanNumeral"],
   SelectWithContents->True]], "Echo",
  CellChangeTimes->{
-  3.7530367864450192`*^9},ExpressionUUID->"0e81232d-5cb2-4556-a6e0-\
-b5bbacc8ae57"],
+  3.757333791217077*^9},ExpressionUUID->"96101877-d2f1-4d7c-94fe-\
+df3c2c8b7a9f"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"CloudObject", "[", 
    TemplateBox[{
-    "\"https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-BirdSay\"",
-     "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-BirdSay"},
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/RandomWikipediaData\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+RandomWikipediaData"},
     "HyperlinkURL"], "]"}],
   CloudObject[
-  "https://www.wolframcloud.com/objects/arnoudb/resource-functions/BirdSay"],
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+RandomWikipediaData"],
   SelectWithContents->True]], "Echo",
  CellChangeTimes->{
-  3.753036792553027*^9},ExpressionUUID->"24f9616f-2066-44a8-9a92-\
-98a22641915c"],
+  3.757333794013092*^9},ExpressionUUID->"d1ef364f-6b57-412d-a121-\
+6184da571305"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"CloudObject", "[", 
    TemplateBox[{
-    "\"https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
-StringWrap\"",
-     "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/StringWrap\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
 StringWrap"},
     "HyperlinkURL"], "]"}],
   CloudObject[
-  "https://www.wolframcloud.com/objects/arnoudb/resource-functions/\
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
 StringWrap"],
   SelectWithContents->True]], "Echo",
  CellChangeTimes->{
-  3.753036794095027*^9},ExpressionUUID->"03c55b8c-44e1-441a-9820-\
-730f48b5cf92"]
+  3.7573337954570937`*^9},ExpressionUUID->"c9dbbee3-9e4a-48ec-bed6-\
+cba5c9e8bec9"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ResourceObject","depnbcl",
+   "\"The example notebook for this resource is no longer available and will \
+not be included in the deployment. Recreate the resource to include the \
+examples.\"",2,101,25,20428247832603955787,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.757333473666764*^9, 3.7573336501863613`*^9, 
+  3.7573337960621014`*^9},
+ CellLabel->
+  "During evaluation of \
+In[101]:=",ExpressionUUID->"a62bc884-3f16-4e9c-82cc-69f3e24799e5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/ImageColorReplace\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+ImageColorReplace"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+ImageColorReplace"],
+  SelectWithContents->True]], "Echo",
+ CellChangeTimes->{
+  3.757333796249102*^9},ExpressionUUID->"78b86a96-6c77-4a9a-9f42-\
+ce40065ab952"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/objects/arnoudb/DeployedResources/\
+Function/BirdSay\"",
+     "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+BirdSay"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/objects/arnoudb/DeployedResources/Function/\
+BirdSay"],
+  SelectWithContents->True]], "Echo",
+ CellChangeTimes->{
+  3.757333801878129*^9},ExpressionUUID->"5de463cf-40b9-4efe-8262-\
+50bbe7e61cbc"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -294,8 +363,11 @@ gallery"},
    3.753030240368577*^9, {3.7530302802387366`*^9, 3.7530303085968056`*^9}, 
    3.7530303624386597`*^9, 3.753030963988702*^9, 3.7530310528589325`*^9, 
    3.7530314324578104`*^9, 3.753033501751768*^9, 3.7530355016307745`*^9, 
-   3.7530355339293575`*^9, 3.7530366034807444`*^9, 3.7530367942830334`*^9},
- CellLabel->"Out[95]=",ExpressionUUID->"ae118f23-9a8a-4add-a06c-55ba6ed66285"]
+   3.7530355339293575`*^9, 3.7530366034807444`*^9, 3.7530367942830334`*^9, 
+   3.757084646905492*^9, 3.7573334784807816`*^9, 3.757333656502386*^9, 
+   3.7573338020521307`*^9},
+ CellLabel->
+  "Out[101]=",ExpressionUUID->"8ecc7b44-7343-4156-9a8e-3b448dc62c31"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -685,11 +757,16 @@ Cell[BoxData[
  CellChangeTimes->{3.753039140339982*^9},
  CellLabel->
   "Out[106]=",ExpressionUUID->"aeabe554-a6dd-40bf-a78e-480fd8b31df0"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData["Da"], "Input",
+ CellChangeTimes->{{3.7573345442338142`*^9, 
+  3.757334544375814*^9}},ExpressionUUID->"8e95406d-926b-4eff-9533-\
+41dc13a8c098"]
 },
 WindowSize->{1920, 997},
 WindowMargins->{{-8, Automatic}, {Automatic, 0}},
-FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (December 4, 2018)",
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (January 21, 2019)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -703,22 +780,28 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2540, 65, 105, "Input",ExpressionUUID->"75150ba4-e343-43a4-863a-1869d92b8dc4"],
-Cell[3101, 87, 3361, 75, 238, "Input",ExpressionUUID->"872a7336-34b6-4200-a7d4-f72e37154323"],
+Cell[558, 20, 2541, 65, 105, "Input",ExpressionUUID->"75150ba4-e343-43a4-863a-1869d92b8dc4"],
+Cell[3102, 87, 3500, 78, 238, "Input",ExpressionUUID->"872a7336-34b6-4200-a7d4-f72e37154323"],
 Cell[CellGroupData[{
-Cell[6487, 166, 1808, 36, 124, "Input",ExpressionUUID->"964da730-326a-4790-b010-5f495fb57531"],
+Cell[6627, 169, 2637, 51, 162, "Input",ExpressionUUID->"964da730-326a-4790-b010-5f495fb57531"],
 Cell[CellGroupData[{
-Cell[8320, 206, 550, 15, 23, "Echo",ExpressionUUID->"6d0a5789-9fd2-467f-a20c-389707db6690"],
-Cell[8873, 223, 547, 15, 23, "Echo",ExpressionUUID->"0e81232d-5cb2-4556-a6e0-b5bbacc8ae57"],
-Cell[9423, 240, 510, 14, 23, "Echo",ExpressionUUID->"24f9616f-2066-44a8-9a92-98a22641915c"],
-Cell[9936, 256, 521, 15, 23, "Echo",ExpressionUUID->"03c55b8c-44e1-441a-9820-730f48b5cf92"]
+Cell[9289, 224, 536, 15, 23, "Echo",ExpressionUUID->"ca836bb5-dc79-424f-bf1a-8a984aadbc9c"],
+Cell[9828, 241, 569, 15, 23, "Echo",ExpressionUUID->"96101877-d2f1-4d7c-94fe-df3c2c8b7a9f"],
+Cell[10400, 258, 572, 15, 23, "Echo",ExpressionUUID->"d1ef364f-6b57-412d-a121-6184da571305"],
+Cell[10975, 275, 547, 15, 23, "Echo",ExpressionUUID->"c9dbbee3-9e4a-48ec-bed6-cba5c9e8bec9"]
 }, Open  ]],
-Cell[10472, 274, 1292, 23, 35, "Output",ExpressionUUID->"ae118f23-9a8a-4add-a06c-55ba6ed66285"]
+Cell[11537, 293, 504, 11, 21, "Message",ExpressionUUID->"a62bc884-3f16-4e9c-82cc-69f3e24799e5"],
+Cell[CellGroupData[{
+Cell[12066, 308, 566, 15, 23, "Echo",ExpressionUUID->"78b86a96-6c77-4a9a-9f42-ce40065ab952"],
+Cell[12635, 325, 536, 15, 23, "Echo",ExpressionUUID->"5de463cf-40b9-4efe-8262-50bbe7e61cbc"]
+}, Open  ]],
+Cell[13186, 343, 1396, 26, 35, "Output",ExpressionUUID->"8ecc7b44-7343-4156-9a8e-3b448dc62c31"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11801, 302, 243, 4, 28, "Input",ExpressionUUID->"7526d525-25b7-4d7b-8e01-fad8e7c3cb14"],
-Cell[12047, 308, 19567, 378, 85, "Output",ExpressionUUID->"aeabe554-a6dd-40bf-a78e-480fd8b31df0"]
-}, Open  ]]
+Cell[14619, 374, 243, 4, 28, "Input",ExpressionUUID->"7526d525-25b7-4d7b-8e01-fad8e7c3cb14"],
+Cell[14865, 380, 19567, 378, 85, "Output",ExpressionUUID->"aeabe554-a6dd-40bf-a78e-480fd8b31df0"]
+}, Open  ]],
+Cell[34447, 761, 156, 3, 28, "Input",ExpressionUUID->"8e95406d-926b-4eff-9533-41dc13a8c098"]
 }
 ]
 *)

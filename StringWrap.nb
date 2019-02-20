@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    212897,       4237]
+NotebookDataLength[    268308,       5270]
 NotebookOptionsPosition[     22413,        580]
-NotebookOutlinePosition[    207329,       4102]
-CellTagsIndexPosition[    206720,       4081]
+NotebookOutlinePosition[    262740,       5135]
+CellTagsIndexPosition[    262131,       5114]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1401,8 +1401,8 @@ StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]]],
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     GraphicsBox[
                     RasterBox[CompressedData["
 1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
@@ -1467,8 +1467,8 @@ GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     GraphicsBox[
                     RasterBox[CompressedData["
 1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
@@ -1839,8 +1839,9 @@ StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]]],
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     GraphicsBox[
                     RasterBox[CompressedData["
 1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
@@ -1906,8 +1907,9 @@ GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     GraphicsBox[
                     RasterBox[CompressedData["
 1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
@@ -2197,8 +2199,8 @@ StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]],
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2240,8 +2242,8 @@ submission id is 1561.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2363,8 +2365,8 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2406,8 +2408,8 @@ submission id is 1561.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2611,8 +2613,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2655,8 +2658,9 @@ submission id is 1561.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2779,8 +2783,9 @@ submission id is `SubmissionID`.", "MessageParameters" ->
                     ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2808,10 +2813,10 @@ submission id is 1561.\"", "SummaryItem"]}]}, {
                     GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     GridBoxSpacings -> {
-                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
-                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
-                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, BaseStyle -> 
+                    {ShowStringCharacters -> False, NumberMarks -> False, 
+                    PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+                    GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
                     False, GridBoxItemSize -> {
                     "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
                     BaselinePosition -> {1, 1}], True -> GridBox[{{
@@ -2823,8 +2828,9 @@ submission id is 1561.\"", "SummaryItem"]}]}, {
                     ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
                     None, Evaluator -> Automatic, Method -> "Preemptive"], 
                     Alignment -> {Center, Center}, ImageSize -> 
-                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                    AbsoluteCurrentValue[Magnification]}]], 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
                     FrameBox[
                     StyleBox["\"\[Checkmark]\"", 
                     Directive[
@@ -2939,12 +2945,1039 @@ submission id is `SubmissionID`.", "MessageParameters" ->
           False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
      "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
      False]], "StripeCell", CellFrameMargins -> {{25, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"]}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"StringWrap\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Line-wrap a string at a specific width", "Version" -> 
+                    None, "Keywords" -> {"line-wrap"}, 
+                    "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox["\"StringWrap\"", "ResourceFunctionName"], "]"}],
+                     "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"string", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"line-wraps ", 
+                    StyleBox["string", FontSlant -> "Italic"], " at width ", 
+                    StyleBox["n", FontSlant -> "Italic"], "."}]]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 93], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7/download/DefinitionData"], 
+                    "ShortName" -> "StringWrap", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"], SelectWithContents -> True], "]"}]]},
+                     "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Thu 24 Jan 2019 09:45:43\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "3589ed79-49d2-43f8-8db2-ccfef5b75c4f"]), Appearance -> 
+                    None, BoxID -> "3589ed79-49d2-43f8-8db2-ccfef5b75c4f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"]}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"StringWrap\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Line-wrap a string at a specific width", "Version" -> 
+                    None, "Keywords" -> {"line-wrap"}, 
+                    "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox["\"StringWrap\"", "ResourceFunctionName"], "]"}],
+                     "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"string", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"line-wraps ", 
+                    StyleBox["string", FontSlant -> "Italic"], " at width ", 
+                    StyleBox["n", FontSlant -> "Italic"], "."}]]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 93], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7/download/DefinitionData"], 
+                    "ShortName" -> "StringWrap", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"], SelectWithContents -> True], "]"}]]},
+                     "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Thu 24 Jan 2019 09:45:43\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "3589ed79-49d2-43f8-8db2-ccfef5b75c4f"]), Appearance -> 
+                    None, BoxID -> "3589ed79-49d2-43f8-8db2-ccfef5b75c4f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/arnoudb/DeployedResources/Function/\
+StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"], SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"StringWrap\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Line-wrap a string at a specific width", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]]], 
+                    Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"StringWrap\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Line-wrap a string at a specific width\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"StringWrap\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Line-wrap a string at a specific width\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"line-wrap\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"f99306da-737c-42ed-a377-5799cf1b46f7\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Line-wrap a string at a specific width", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "\[RightGuillemet]", 
+                 "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"]}}, Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"StringWrap\"", FontColor -> 
+                    RGBColor[
+                    0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Line-wrap a string at a specific width", "Version" -> 
+                    None, "Keywords" -> {"line-wrap"}, 
+                    "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox["\"StringWrap\"", "ResourceFunctionName"], "]"}],
+                     "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"string", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"line-wraps ", 
+                    StyleBox["string", FontSlant -> "Italic"], " at width ", 
+                    StyleBox["n", FontSlant -> "Italic"], "."}]]}], 
+                    "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 93], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7/download/DefinitionData"], 
+                    "ShortName" -> "StringWrap", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+f99/f99306da-737c-42ed-a377-5799cf1b46f7"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"], SelectWithContents -> True], "]"}]]},
+                   "ClickToCopyTemplate"]]}}], "", 
+             Style[
+             "Thu 24 Jan 2019 09:45:43", FontSlant -> Italic, FontColor -> 
+              GrayLevel[0.5], FontSize -> 0.9 Inherited], 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "3589ed79-49d2-43f8-8db2-ccfef5b75c4f"], Appearance -> None, 
+               BoxID -> "3589ed79-49d2-43f8-8db2-ccfef5b75c4f"], 
+              "LinkHand"]}}, ItemSize -> {{
+              Scaled[0.35], 
+              Scaled[0.35], Fit, Automatic^2}, Automatic}, 
+           Alignment -> {{Left, Left, Center, Right, Right}, Center}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/arnoudb/DeployedResources/Function/\
+StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"], SelectWithContents -> True]]}, 
+                   "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Visit web page:", 
+                 Hyperlink[
+                  RawBoxes[
+                   TagBox[
+                   "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap\"", Short[#, 0.75]& ]], 
+                  "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/StringWrap"]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"StringWrap\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Line-wrap a string at a specific width", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]]], 
+                    Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"StringWrap\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Line-wrap a string at a specific width\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"StringWrap\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Line-wrap a string at a specific width\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    TagBox[
+                    
+                    TemplateBox[{",", "\",\"", "\"line-wrap\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"f99306da-737c-42ed-a377-5799cf1b46f7\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "StringWrap", "UUID" -> 
+                    "f99306da-737c-42ed-a377-5799cf1b46f7", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Line-wrap a string at a specific width", "SymbolName" -> 
+                    "FunctionRepository`$f99306da737c42eda3775799cf1b46f7`\
+StringWrap", "FunctionLocation" -> None, "ShortName" -> "StringWrap"]], 
+                    Selectable -> False, Editable -> False, 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}}, 
+               Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{25, 5}, {2, 2}}, 
    CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> "1.2.12", "StatusMessage" -> "", "AttachedHints" -> {}},
 CreateCellID->True,
-FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (December 4, 2018)",
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (January 21, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -3967,7 +5000,7 @@ FunctionTemplateToggle`DT`FunctionTemplateLiteralInput[EvaluationNotebook[]]"]\
     StyleData["Subsubsection"], Evaluatable -> True, 
     CellEvaluationFunction -> (($Line = 0; Null)& ), ShowCellLabel -> False]},
    Visible -> False, FrontEndVersion -> 
-  "12.0 for Microsoft Windows (64-bit) (December 4, 2018)", StyleDefinitions -> 
+  "12.0 for Microsoft Windows (64-bit) (January 21, 2019)", StyleDefinitions -> 
   "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -4080,23 +5113,23 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Title", 202190, 3977},
- {"TabNext", 202355, 3981},
- {"Description", 204109, 4018},
- {"Definition", 204283, 4022},
- {"Documentation", 204450, 4026},
- {"Usage", 204612, 4030},
- {"Details & Options", 204782, 4034},
- {"Examples", 204954, 4038},
- {"Source & Additional Information", 205139, 4042},
- {"Contributed By", 205329, 4046},
- {"Keywords", 205500, 4050},
- {"Related Symbols", 205672, 4054},
- {"Related Resource Objects", 205860, 4058},
- {"Source/Reference Citation", 206058, 4062},
- {"Links", 206237, 4066},
- {"Tests", 206396, 4070},
- {"Notes", 206554, 4074}
+ {"Title", 257601, 5010},
+ {"TabNext", 257766, 5014},
+ {"Description", 259520, 5051},
+ {"Definition", 259694, 5055},
+ {"Documentation", 259861, 5059},
+ {"Usage", 260023, 5063},
+ {"Details & Options", 260193, 5067},
+ {"Examples", 260365, 5071},
+ {"Source & Additional Information", 260550, 5075},
+ {"Contributed By", 260740, 5079},
+ {"Keywords", 260911, 5083},
+ {"Related Symbols", 261083, 5087},
+ {"Related Resource Objects", 261271, 5091},
+ {"Source/Reference Citation", 261469, 5095},
+ {"Links", 261648, 5099},
+ {"Tests", 261807, 5103},
+ {"Notes", 261965, 5107}
  }
 *)
 (*NotebookFileOutline

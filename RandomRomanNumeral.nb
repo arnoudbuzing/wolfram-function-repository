@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    120758,       2620]
+NotebookDataLength[    251894,       5028]
 NotebookOptionsPosition[     31716,        844]
-NotebookOutlinePosition[    111840,       2410]
-CellTagsIndexPosition[    111231,       2389]
+NotebookOutlinePosition[    242976,       4818]
+CellTagsIndexPosition[    242367,       4797]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -843,7 +843,7 @@ Cell["Notes", "Section",
 }, Open  ]]
 },
 WindowSize->{775, 872},
-WindowMargins->{{396, Automatic}, {Automatic, 47}},
+WindowMargins->{{Automatic, 226}, {Automatic, 46}},
 Visible->True,
 DockedCells->{
   Cell[
@@ -1196,12 +1196,2420 @@ jIx4IS/2yUhjJKVkUvMLAMWzMVI=
        "Columns" -> {{Automatic}}, "RowsIndexed" -> {1 -> 6, 2 -> 4}}, 
       GridBoxSpacings -> {"Columns" -> {5, {}, 5}, "Rows" -> {{Automatic}}}, 
       FrameStyle -> RGBColor[0.988235, 0.419608, 0.203922]], "Grid"]], 
-   "DockedCell", CellMargins -> {{-10, -10}, {-8, -8}}, CellFrame -> 0]},
+   "DockedCell", CellMargins -> {{-10, -10}, {-8, -8}}, CellFrame -> 0], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["ddzwg_shm", 3, 1]], 30], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9/\
+download/DefinitionData"], "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Mon 21 Jan 2019 12:33:28\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "af56a105-5b84-4994-a403-170c5b946b5a"]), Appearance -> 
+                    None, BoxID -> "af56a105-5b84-4994-a403-170c5b946b5a", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["ddzwg_shm", 3, 1]], 30], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9/\
+download/DefinitionData"], "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                    "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Mon 21 Jan 2019 12:33:28\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "af56a105-5b84-4994-a403-170c5b946b5a"]), Appearance -> 
+                    None, BoxID -> "af56a105-5b84-4994-a403-170c5b946b5a", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-7053ce31-817f-4643-aec1-\
+eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]]], Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"486f238e-ed56-4f9a-b756-2927f0f238f9\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "\[RightGuillemet]", 
+                 "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"]}}, 
+              Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[
+                    0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["ddzwg_shm", 3, 1]], 30], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9/\
+download/DefinitionData"], "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/Resources/486/486f238e-ed56-4f9a-b756-2927f0f238f9"]}, 
+                    "ExampleNotebookData" -> Automatic]]], Selectable -> 
+                    False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"], 
+                    SelectWithContents -> True], "]"}]]}, 
+                  "ClickToCopyTemplate"]]}}], "", 
+             Style[
+             "Mon 21 Jan 2019 12:33:28", FontSlant -> Italic, FontColor -> 
+              GrayLevel[0.5], FontSize -> 0.9 Inherited], 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "af56a105-5b84-4994-a403-170c5b946b5a"], Appearance -> None, 
+               BoxID -> "af56a105-5b84-4994-a403-170c5b946b5a"], 
+              "LinkHand"]}}, ItemSize -> {{
+              Scaled[0.35], 
+              Scaled[0.35], Fit, Automatic^2}, Automatic}, 
+           Alignment -> {{Left, Left, Center, Right, Right}, Center}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/user-7053ce31-817f-4643-aec1-\
+eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/user-7053ce31-\
+817f-4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"}, 
+                    "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"], 
+                    SelectWithContents -> True]]}, "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Visit web page:", 
+                 Hyperlink[
+                  RawBoxes[
+                   TagBox[
+                   "\"https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral\"", 
+                    Short[#, 0.75]& ]], 
+                  "https://www.wolframcloud.com/objects/user-7053ce31-817f-\
+4643-aec1-eda27051bba6/DeployedResources/Function/RandomRomanNumeral"]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]]], Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"486f238e-ed56-4f9a-b756-2927f0f238f9\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "486f238e-ed56-4f9a-b756-2927f0f238f9", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$486f238eed564f9ab7562927f0f238f9`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True]]}, 
+                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{25, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]], 
+  Cell[
+   BoxData[
+    StyleBox[
+     TagBox[
+      DynamicModuleBox[{Typeset`var$$ = False}, 
+       InterpretationBox[
+        StyleBox[
+         PaneSelectorBox[{False -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"]}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 131], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb/download/DefinitionData"], 
+                    "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"], SelectWithContents -> True], 
+                    "]"}]]}, "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Thu 24 Jan 2019 09:46:39\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "4fee4426-245e-4e2f-9345-087472d6539f"]), Appearance -> 
+                    None, BoxID -> "4fee4426-245e-4e2f-9345-087472d6539f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}], True -> GridBox[{{
+               OpenerBox[
+                Dynamic[Typeset`var$$], Appearance -> Automatic, Enabled -> 
+                Automatic, AutoAction -> False, ContinuousAction -> False], 
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    GridBox[{{"\"Published to the cloud\"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"]}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                   TagBox[
+                    GridBox[{{"\"ResourceFunction:\"", 
+                    TemplateBox[{
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 131], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb/download/DefinitionData"], 
+                    "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                    RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"], SelectWithContents -> True], 
+                    "]"}]]}, "ClickToCopyTemplate"]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], "\"\"", 
+                   StyleBox[
+                   "\"Thu 24 Jan 2019 09:46:39\"", FontSlant -> Italic, 
+                    FontColor -> GrayLevel[0.5], FontSize -> 0.9 Inherited, 
+                    StripOnInput -> False], 
+                   TagBox[
+                    ButtonBox[
+                    TagBox[
+                    PaneSelectorBox[{False -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[64, 85], 0.7529411764705882]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None], True -> GraphicsBox[{
+                    GrayLevel[
+                    NCache[
+                    Rational[128, 255], 0.5019607843137255]], 
+                    
+                    PolygonBox[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                    
+                    PolygonBox[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                    PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                    None]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+                    FrameMargins -> 0], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ButtonFunction :> (Symbol["System`ResourceFunction"]; 
+                    FunctionResource`DefinitionNotebook`Private`deleteMe[
+                    "4fee4426-245e-4e2f-9345-087472d6539f"]), Appearance -> 
+                    None, BoxID -> "4fee4426-245e-4e2f-9345-087472d6539f", 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]]}}, 
+                 GridBoxAlignment -> {
+                  "Columns" -> {Left, Left, Center, Right, Right}, 
+                   "Rows" -> {{Center}}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {"Columns" -> {
+                    Scaled[0.35], 
+                    Scaled[0.35], Fit, Automatic^2}, 
+                   "Rows" -> {{Automatic}}}], "Grid"]}, {"", 
+               PaneBox[
+                TagBox[
+                 GridBox[{{"\"\"", 
+                    StyleBox[
+                    TagBox[
+                    
+                    GridBox[{{
+                    "\"\[FilledVerySmallSquare]\"", "\"Cloud object:\"", 
+                    TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/arnoudb/DeployedResources/Function/\
+RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"], SelectWithContents -> 
+                    True]]}, "ClickToCopyTemplate"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Visit web page:\"", 
+                    TemplateBox[{
+                    TagBox[
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", Short[#, 0.75]& ], 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"]}, {
+                    "\"\[FilledVerySmallSquare]\"", "\"Resource object:\"", 
+                    TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]]], Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 (CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification])}, 
+                    ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"5bb42699-7257-4d99-8eca-7c29bb7a85eb\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}, 
+                    "Rows" -> {{Automatic}}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {"Columns" -> {{Automatic}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{2}}, 
+                    "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True]]}, 
+                    "ClickToCopyTemplate"]}}, 
+                    GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {Automatic, Automatic, Fit}, 
+                    "Rows" -> {{Automatic}}}], "Grid"], FontColor -> 
+                    GrayLevel[0.5], FontSize -> 12, StripOnInput -> False]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                  False, GridBoxDividers -> {
+                   "Columns" -> {{None}}, "RowsIndexed" -> {-1 -> GrayLevel[
+                    Rational[239, 255]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {Automatic, Fit}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {1, {}, 1}, "Rows" -> {1, {}, 2}}], "Grid"], 
+                ImageMargins -> 0]}}, 
+             GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> False,
+              GridBoxBackground -> {"Columns" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0.5}}}, 
+             BaselinePosition -> {1, 1}]}, 
+          Dynamic[Typeset`var$$], Alignment -> Automatic, ImageSize -> 
+          Automatic, ImageMargins -> 0, BaseStyle -> {}, DefaultBaseStyle -> 
+          "OpenerView", BaselinePosition -> Baseline], Deployed -> False, 
+         StripOnInput -> False], 
+        OpenerView[{
+          Grid[{{
+             Grid[{{"Published to the cloud", 
+                Hyperlink[
+                "\[RightGuillemet]", 
+                 "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"]}}, Spacings -> 0.25], 
+             Grid[{{"ResourceFunction:", 
+                RawBoxes[
+                 TemplateBox[{
+                   InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[
+                    0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Description" -> 
+                    "Gives a randomly generated Roman numeral", "Version" -> 
+                    None, "ContributorInformation" -> 
+                    Association["ContributedBy" -> "Arnoud Buzing"], 
+                    "Documentation" -> Association["Usage" -> {
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", "]"}]], "Description" -> 
+                    "give 0 or 1, as a Roman numeral."], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox["range", FontSlant -> "Italic"], "]"}]], 
+                    "Description" -> 
+                    TextData[{
+                    "give a randomly generated Roman numeral, using the given \
+", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]], 
+                    Association["Usage" -> BoxData[
+                    RowBox[{
+                    StyleBox[
+                    RowBox[{
+                    StyleBox["ResourceFunction", "ResourceFunctionSymbol"], 
+                    "[", 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", "ResourceFunctionName"], "]"}], 
+                    "ResourceFunctionHandle"], "[", 
+                    StyleBox[
+                    RowBox[{"range", ",", "n"}], FontSlant -> "Italic"], 
+                    "]"}]], "Description" -> TextData[{"give ", 
+                    StyleBox["n", FontSlant -> "Italic"], 
+                    " Roman numerals, using ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}]]}, 
+                    "Notes" -> {
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is an integer value, then the range goes from 1 to ", 
+                    StyleBox["range", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945172678834*^9}}, CellTags -> "TabNext", CellID -> 
+                    107622986], 
+                    Cell[
+                    TextData[{"If ", 
+                    StyleBox["range", FontSlant -> "Italic"], 
+                    " is a list of two integers {n,m}, then the range goes \
+from ", 
+                    StyleBox["n", FontSlant -> "Italic"], " to ", 
+                    StyleBox["m", FontSlant -> "Italic"], "."}], "Notes", 
+                    CellEventActions -> {
+                    Inherited, {"KeyDown", "\t"} :> Replace[SelectionMove[
+                    SelectedNotebook[], After, Cell]; NotebookFind[
+                    SelectedNotebook[], "TabNext", Next, CellTags, AutoScroll -> 
+                    True, WrapAround -> True], Blank[NotebookSelection] :> 
+                    SelectionMove[
+                    SelectedNotebook[], All, CellContents, AutoScroll -> 
+                    True]], PassEventsDown -> False, PassEventsUp -> False}, 
+                    CellChangeTimes -> {{3.752945139213561*^9, 
+                    3.752945229102031*^9}}, CellTags -> "TabNext", CellID -> 
+                    201169564]}], "ExampleNotebook" -> NotebookObject[
+                    FrontEndObject[
+                    LinkObject["yhzwf_shm", 3, 1]], 131], "FunctionLocation" -> 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb/download/DefinitionData"], 
+                    "ShortName" -> "RandomRomanNumeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "ResourceLocations" -> {
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/Resources/\
+5bb/5bb42699-7257-4d99-8eca-7c29bb7a85eb"]}, "ExampleNotebookData" -> 
+                    Automatic]]], Selectable -> False], 
+                   RawBoxes[
+                    RowBox[{"ResourceFunction", "[", 
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"], SelectWithContents -> True], 
+                    "]"}]]}, "ClickToCopyTemplate"]]}}], "", 
+             Style[
+             "Thu 24 Jan 2019 09:46:39", FontSlant -> Italic, FontColor -> 
+              GrayLevel[0.5], FontSize -> 0.9 Inherited], 
+             MouseAppearance[
+              Button[
+               MouseAppearance[
+                Mouseover[
+                 Graphics[{
+                   GrayLevel[
+                    Rational[64, 85]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None], 
+                 Graphics[{
+                   GrayLevel[
+                    Rational[128, 255]], 
+                   
+                   Polygon[{{-0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, -0.282842712474619}, {0.282842712474619, 
+                    0.42426406871192845`}, {0.42426406871192845`, 
+                    0.282842712474619}}], 
+                   
+                   Polygon[{{0.42426406871192845`, -0.282842712474619}, {
+                    0.282842712474619, -0.42426406871192845`}, \
+{-0.42426406871192845`, 0.282842712474619}, {-0.282842712474619, 
+                    0.42426406871192845`}}]}, ImageSize -> 18, 
+                  PlotRangePadding -> 0, PlotRange -> 0.7, Background -> 
+                  None]], "LinkHand"], Symbol["System`ResourceFunction"]; 
+               FunctionResource`DefinitionNotebook`Private`deleteMe[
+                "4fee4426-245e-4e2f-9345-087472d6539f"], Appearance -> None, 
+               BoxID -> "4fee4426-245e-4e2f-9345-087472d6539f"], 
+              "LinkHand"]}}, ItemSize -> {{
+              Scaled[0.35], 
+              Scaled[0.35], Fit, Automatic^2}, Automatic}, 
+           Alignment -> {{Left, Left, Center, Right, Right}, Center}], 
+          Grid[{{"", 
+             Style[
+              Grid[{{"\[FilledVerySmallSquare]", "Cloud object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://\[Ellipsis]/arnoudb/DeployedResources/Function/\
+RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{"CloudObject", "[", 
+                    
+                    TemplateBox[{
+                    "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", 
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"}, "HyperlinkURL"], "]"}], 
+                    CloudObject[
+                    "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"], SelectWithContents -> 
+                    True]]}, "ClickToCopyTemplate"]]}, {
+                "\[FilledVerySmallSquare]", "Visit web page:", 
+                 Hyperlink[
+                  RawBoxes[
+                   TagBox[
+                   "\"https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral\"", Short[#, 0.75]& ]], 
+                  "https://www.wolframcloud.com/objects/arnoudb/\
+DeployedResources/Function/RandomRomanNumeral"]}, {
+                "\[FilledVerySmallSquare]", "Resource object:", 
+                 RawBoxes[
+                  TemplateBox[{
+                    RowBox[{"ResourceObject", "[", 
+                    InterpretationBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"\[EmptyCircle]\"", FontSize -> 1.2 Inherited, 
+                    ShowStringCharacters -> False, FontColor -> 
+                    RGBColor[0.9882352941176471, 0.4, 0.25098039215686274`], 
+                    FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], Bold, Plain]], StripOnInput -> 
+                    False], 
+                    StyleBox[
+                    "\"RandomRomanNumeral\"", FontColor -> 
+                    RGBColor[0.2784313725490196, 0.2784313725490196, 
+                    0.2784313725490196], ShowAutoStyles -> False, 
+                    ShowStringCharacters -> False, FontFamily -> "Roboto", 
+                    FontSize -> 0.9 Inherited, FontWeight -> Dynamic[
+                    FEPrivate`If[
+                    CurrentValue[Evaluatable], "DemiBold", Plain]], 
+                    StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.25}}}], "Grid"], 
+                    Background -> 
+                    RGBColor[
+                    0.9686274509803922, 0.9686274509803922, 
+                    0.9686274509803922], ContentPadding -> False, 
+                    FrameMargins -> {{3, 4}, {2, 2}}, FrameStyle -> Directive[
+                    Thickness[1], 
+                    RGBColor[
+                    0.8627450980392157, 0.8627450980392157, 
+                    0.8627450980392157]], RoundingRadius -> 3, StripOnInput -> 
+                    False, Selectable -> False], 
+                    ResourceFunction[
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]]], Selectable -> False], "]"}], 
+                    RawBoxes[
+                    InterpretationBox[
+                    RowBox[{
+                    TagBox["ResourceObject", "SummaryHead"], "[", 
+                    
+                    DynamicModuleBox[{
+                    Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+                    TemplateBox[{
+                    PaneSelectorBox[{False -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquarePlusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = True), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}], True -> GridBox[{{
+                    PaneBox[
+                    ButtonBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "FEBitmaps", "SquareMinusIconMedium"]], 
+                    ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                    None, Evaluator -> Automatic, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, ImageSize -> 
+                    Dynamic[{Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                    AbsoluteCurrentValue[Magnification]}]], 
+                    GraphicsBox[
+                    RasterBox[CompressedData["
+1:eJztmzFvEzEUxyNg6JiNtUysmRADQ7qA2KJWrEitCBUMAaVFiO0GRoZILIyV
++gGQGJkqBmZgR06FKoRQRRAghBA6/JI7al585+fzc85X50n/Km3vzu8X28/2
+s+/C1r3122dardbOivyxvvlwbTjcfLTRlr/cGOzc2R70b10f7Pa3+8PLW2fl
+H69kOieVpqkXiWsrHan7UntSB1KpQQfZtXBPx5dfzIy9zOcJgc+kSfasXt1c
+iLEtlUiNGRiLNM7KaNfMmjDVpU2dJzVwdj3XJ6W+uwtqu6MaObFGvtq4fO6q
+1JsAGLHAp1Vm1o5YbD+1FfjGMoY1gJWNuUGszsxi1l+bxKoyW/VnMYvDIcYm
+qsB3ctwWYY05VTUisnYD8JVLXQJvnfMmbo0NrEkAPnIrKYlRTYzHJgHTXOw6
+pXVbWMeC0G8/Prhq1OHG+bn7ju5eKrye4i8806Y8jcaItUcpl2I6hp/vXhVe
+TykXnmlTXoH+5UnELG9ivOfL/uNC33+8fjH9/4ebF428f75Ppn+D6ynlwjO/
+vdzXlm3Bu6fwkuMUtB9sv96/Lb1H9fP3p0Onvvj5Sb8q7yQ9WRNYlYnt6/On
+ZF747MKLv28L3lSc5EydeE3tUuU1fTe25Vvy5vnhhfFS+6wnXmou3Atv2ThT
+Nm458FqzcvKWjTPYmHid29OSd8m75OUrf8nLIxg7wFcQtnwuDDp+tlvKC/Ps
+JvDCnB3m+RTDazTO+ST44chLHoPh2ab61a2RVF74znRrKKpw+RXmG9bzSVzP
+Nv03N1gnUesa8gVwvc4qzCet1wvY/yq8uVHbVZFVWC9YrwdhjWPDG5Cme0vC
+Mi+JY0ZDeKfr/dQin6MKxp3c8jUtxGUYb8A4xh1mqfkcUr4OC3JKucFnHMcg
+9xIAZ67/zjWJivsouC87xBKfmttXEQ75duDK2zFu44FIl29n2U9xmUt4knY/
+xbWOA5Z2v8y1Hweq0v3QNML97jSy8wxK7IrmvErGHM15JIU5mvNmDWSO6Qwl
+GyvqzyHGMPbzwChuhzRWeTvvjbijOM+v4Y7ifQ1NG4/ifRwN+6l/36qEPcj3
+6f4CgLLCWA==
+                    "], {{0, 0}, {60, 60}}, {0, 255}, ColorFunction -> 
+                    RGBColor], AspectRatio -> 1, Axes -> False, Background -> 
+                    None, Frame -> None, FrameTicks -> None, ImageSize -> 
+                    Dynamic[{Automatic, 
+                    3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                    Magnification])}, ImageSizeCache -> {45., {0., 9.}}]], 
+                    GridBox[{{
+                    RowBox[{
+                    TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"RandomRomanNumeral\"", "SummaryItem"]}], 
+                    TagBox["\"\"", "SummaryItem"]}, {
+                    RowBox[{
+                    TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["\"Function\"", "SummaryItem"]}], 
+                    "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"Gives a randomly generated Roman numeral\"", 
+                    "SummaryItem"]}], "\[SpanFromLeft]"}, {
+                    RowBox[{
+                    TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox[
+                    "\"5bb42699-7257-4d99-8eca-7c29bb7a85eb\"", 
+                    "SummaryItem"]}], ""}, {
+                    RowBox[{
+                    TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                    "\[InvisibleSpace]", 
+                    TagBox["None", "SummaryItem"]}], ""}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                    AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+                    BaseStyle -> {ShowStringCharacters -> False, NumberMarks -> 
+                    False, PrintPrecision -> 3, ShowSyntaxStyles -> False}]}},
+                     GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> 
+                    False, GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    BaselinePosition -> {1, 1}]}, 
+                    Dynamic[Typeset`open$$], ImageSize -> Automatic]}, 
+                    "SummaryPanel"], DynamicModuleValues :> {}], "]"}], 
+                    ResourceObject[
+                    Association[
+                    "Name" -> "RandomRomanNumeral", "UUID" -> 
+                    "5bb42699-7257-4d99-8eca-7c29bb7a85eb", "ResourceType" -> 
+                    "Function", "Version" -> None, "Description" -> 
+                    "Gives a randomly generated Roman numeral", "SymbolName" -> 
+                    "FunctionRepository`$5bb4269972574d998eca7c29bb7a85eb`\
+RandomRomanNumeral", "FunctionLocation" -> None, "ShortName" -> 
+                    "RandomRomanNumeral"]], Selectable -> False, Editable -> 
+                    False, SelectWithContents -> True]]}, 
+                   "ClickToCopyTemplate"]]}}, Alignment -> Left, 
+               ItemSize -> {{Automatic, Automatic, Fit}, Automatic}], 
+              FontColor -> GrayLevel[0.5], FontSize -> 12]}}, 
+           ItemSize -> {{Automatic, Fit}, Automatic}, Alignment -> Left, 
+           Dividers -> {None, {-1 -> GrayLevel[
+                Rational[239, 255]]}}, Spacings -> {{1, {}, 1}, {1, {}, 2}}]},
+          False]], DynamicModuleValues -> Automatic], Setting[#, {0}]& ], 
+     "Text", FontSize -> 12, FontColor -> GrayLevel[0.25], StripOnInput -> 
+     False]], "StripeCell", CellFrameMargins -> {{25, 5}, {2, 2}}, 
+   CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> GrayLevel[0.75]]},
 TaggingRules->{
  "ResourceType" -> "Function", "ResourceCreateNotebook" -> True, 
   "TemplateVersion" -> "1.2.12", "StatusMessage" -> "", "AttachedHints" -> {}},
 CreateCellID->True,
-FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (December 4, 2018)",
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (January 21, 2019)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -2224,7 +4632,7 @@ FunctionTemplateToggle`DT`FunctionTemplateLiteralInput[EvaluationNotebook[]]"]\
     StyleData["Subsubsection"], Evaluatable -> True, 
     CellEvaluationFunction -> (($Line = 0; Null)& ), ShowCellLabel -> False]},
    Visible -> False, FrontEndVersion -> 
-  "12.0 for Microsoft Windows (64-bit) (December 4, 2018)", StyleDefinitions -> 
+  "12.0 for Microsoft Windows (64-bit) (January 21, 2019)", StyleDefinitions -> 
   "PrivateStylesheetFormatting.nb"]
 ]
 (* End of Notebook Content *)
@@ -2388,23 +4796,23 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Definition", 104125, 2234},
- {"Documentation", 104438, 2241},
- {"Usage", 104749, 2248},
- {"Details & Options", 105064, 2255},
- {"Examples", 105393, 2262},
- {"Source & Additional Information", 105723, 2269},
- {"Contributed By", 106080, 2276},
- {"Keywords", 106405, 2283},
- {"Related Symbols", 106724, 2290},
- {"Related Resource Objects", 106911, 2294},
- {"Source/Reference Citation", 107273, 2301},
- {"Links", 107615, 2308},
- {"Tests", 107919, 2315},
- {"Notes", 108222, 2322},
- {"Title", 108519, 2329},
- {"TabNext", 108686, 2333},
- {"Description", 111050, 2382}
+ {"Definition", 235261, 4642},
+ {"Documentation", 235574, 4649},
+ {"Usage", 235885, 4656},
+ {"Details & Options", 236200, 4663},
+ {"Examples", 236529, 4670},
+ {"Source & Additional Information", 236859, 4677},
+ {"Contributed By", 237216, 4684},
+ {"Keywords", 237541, 4691},
+ {"Related Symbols", 237860, 4698},
+ {"Related Resource Objects", 238047, 4702},
+ {"Source/Reference Citation", 238409, 4709},
+ {"Links", 238751, 4716},
+ {"Tests", 239055, 4723},
+ {"Notes", 239358, 4730},
+ {"Title", 239655, 4737},
+ {"TabNext", 239822, 4741},
+ {"Description", 242186, 4790}
  }
 *)
 (*NotebookFileOutline
